@@ -1,0 +1,1033 @@
+﻿PS C:\Coding\RNWTest\windows> npx react-native run-windows --logging
+ i Running x64 node on a x64 machine
+ i Verbose: ON
+Looking for VS installs with version range: [17.0,18.0)
+Looking for vswhere at: C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+ √ Found compatible MSBuild at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin (17.7.34031.279)
+ Versão do MSBuild 17.7.2+d6990bcfa para .NET Framework
+Compilação de 29/09/2023 09:15:26 iniciada.
+
+Projeto "C:\Coding\RNWTest\windows\RNWTest.sln" no nó 1 (Restore destino(s)).
+ValidateSolutionConfiguration:
+  Compilando a configuração de solução "Debug|x64".
+_GetAllRestoreProjectPathItems:
+  Determinando os projetos a serem restaurados...
+Restore:
+  A validação da cadeia de certificados X.509 usará o repositório de confiança padrão selecionado pelo .NET.
+  A validação da cadeia de certificados X.509 usará o repositório de confiança padrão selecionado pelo .NET.
+Projeto de compilação pronto "C:\Coding\RNWTest\windows\RNWTest.sln" (Restore destino(s)).
+
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:00.55
+√ Restoring NuGet packages
+- Auto-linking...
+Parsing project...
+Found Windows app project, config:
+{
+  folder: 'C:\\Coding\\RNWTest',
+  sourceDir: 'windows',
+  solutionFile: 'RNWTest.sln',
+  project: {
+    projectFile: 'RNWTest\\RNWTest.vcxproj',
+    projectName: 'RNWTest',
+    projectLang: 'cpp',
+    projectGuid: '{0f454641-b14c-4d0e-b13a-bafc5424dbe0}'
+  },
+  experimentalFeatures: {
+    UseHermes: 'false',
+    UseWinUI3: 'false',
+    UseExperimentalNuget: 'false',
+    ReactExperimentalFeaturesSet: 'true'
+  }
+}
+Parsing dependencies...
+Calculating AutolinkedNativeModules.g.cpp...
+Reading AutolinkedNativeModules.g.cpp...
+No changes to AutolinkedNativeModules.g.cpp.
+Calculating AutolinkedNativeModules.g.props...
+Reading AutolinkedNativeModules.g.props...
+No changes to AutolinkedNativeModules.g.props.
+Calculating AutolinkedNativeModules.g.targets...
+Reading AutolinkedNativeModules.g.targets...
+No changes to AutolinkedNativeModules.g.targets.
+Calculating RNWTest.sln changes...
+ √ Auto-linking...
+Success: No auto-linking changes necessary. (14ms)
+ √ Found Solution: C:\Coding\RNWTest\windows\RNWTest.sln
+ i Build configuration: Debug
+ i Build platform: x64
+Running MSBuild with args /clp:NoSummary;NoItemAndPropertyList;Verbosity=normal /nologo /p:Configuration=Debug /p:Platform=x64 /p:AppxBundle=Never /bl /flp1:errorsonly;logfile=C:\Users\joao_\AppData\Local\Temp\msbuild_26844_build.err /flp2:warningsonly;logfile=C:\Users\joao_\AppData\Local\Temp\msbuild_26844_build.wrn /restore /p:RestorePackagesConfig=true /p:RunAutolinkCheck=false
+ Compilação de 29/09/2023 09:15:27 iniciada.
+
+Projeto "C:\Coding\RNWTest\windows\RNWTest.sln" no nó 1 (Restore destino(s)).
+ValidateSolutionConfiguration:
+  Compilando a configuração de solução "Debug|x64".
+_GetAllRestoreProjectPathItems:
+  Determinando os projetos a serem restaurados...
+Restore:
+  A validação da cadeia de certificados X.509 usará o repositório de confiança padrão selecionado pelo .NET.
+  A validação da cadeia de certificados X.509 usará o repositório de confiança padrão selecionado pelo .NET.
+  O arquivo de ativos não foi alterado. Ignorando gravação de arquivo de ativos. Caminho: C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\obj\project.assets.json
+  O arquivo de ativos não foi alterado. Ignorando gravação de arquivo de ativos. Caminho: C:\Coding\RNWTest\windows\RNWTest\obj\project.assets.json
+  O arquivo de ativos não foi alterado. Ignorando gravação de arquivo de ativos. Caminho: C:\Coding\RNWTest\node_modules\react-native-windows\Folly\obj\project.assets.json
+  O arquivo de ativos não foi alterado. Ignorando gravação de arquivo de ativos. Caminho: C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\obj\project.assets.json
+  C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj restaurado (em 83 ms).
+  C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj restaurado (em 83 ms).
+  C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj restaurado (em 84 ms).
+  C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj restaurado (em 83 ms).
+
+  Arquivos de configuração NuGet usados:
+      C:\Users\joao_\AppData\Roaming\NuGet\NuGet.Config
+      C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
+      C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+      C:\Coding\RNWTest\windows\NuGet.Config
+
+  Feeds usados:
+      https://api.nuget.org/v3/index.json
+      C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+  Todos os projetos estão atualizados para restauração.
+Projeto de compilação pronto "C:\Coding\RNWTest\windows\RNWTest.sln" (Restore destino(s)).
+
+Projeto "C:\Coding\RNWTest\windows\RNWTest.sln" no nó 1 (destinos padrão).
+ValidateSolutionConfiguration:
+  Compilando a configuração de solução "Debug|x64".
+O projeto "C:\Coding\RNWTest\windows\RNWTest.sln" (1:2) está compilando "C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj.metaproj" (8) no nó 1 (destinos padrão).
+O projeto "C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj.metaproj" (8) está compilando "C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" (6:7) no nó 1 (destinos padrã
+o).
+O projeto "C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" (6:7) está compilando "C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj" (7:7) no nó
+1 (destinos padrão).
+GetInstalledSDKLocations:
+  Pesquisando SDKs destinados a "UAP, 10.0.19041.0".
+  Pesquisando SDKs destinados a "Windows, 8.1".
+ResolveSDKReferences:
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|x64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-x64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no manifesto d
+  o SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx" no manifesto do SDK.
+ExpandSDKReferences:
+  Enumerando Referência de SDK "Microsoft.VCLibs, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\".
+InitializeBuildStatus:
+  Criando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Common\Common.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Common\Common.tlog\unsuccessfulbuild".
+ClCompile:
+  Todas as saídas estão atualizadas.
+Lib:
+  Todas as saídas estão atualizadas.
+  Common.vcxproj -> C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Common\Common.lib
+ComputeProcessXamlFiles:
+  (Out) ProcessedXamlFiles ==
+CustomOutputGroupForPackaging:
+  (Out) Project='Common' ProcessedXamlFiles ==
+  (Out) XamlPackagingRootFolder == C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Common\Generated Files\
+  (Out) ProcessedXamlFilesFullPath ==
+  (Out) Project='Common' CustomOutputGroupForPackagingOutput ==
+_GenerateProjectPriFileCore:
+Ignorando o destino "_GenerateProjectPriFileCore" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+FinalizeBuildStatus:
+  Excluindo o arquivo "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Common\Common.tlog\unsuccessfulbuild".
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Common\Common.tlog\Common.lastbuildstate".
+Projeto de compilação pronto "C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj" (destinos padrão).
+
+O projeto "C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" (6:7) está compilando "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj" (3:8) no nó 1
+(destinos padrão).
+O projeto "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj" (3:8) está compilando "C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj" (4:7) no nó 1 (destinos padrão).
+DownloadFmt:
+Ignorando o destino "DownloadFmt" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+WriteCGManifest:
+Ignorando o destino "WriteCGManifest" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+ApplyFmtTemporaryPatch:
+  Applying temporary patches to fmt.
+GetInstalledSDKLocations:
+  Pesquisando SDKs destinados a "UAP, 10.0.19041.0".
+  Pesquisando SDKs destinados a "Windows, 8.1".
+ResolveSDKReferences:
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|x64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-x64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no manifesto d
+  o SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx" no manifesto do SDK.
+ExpandSDKReferences:
+  Enumerando Referência de SDK "Microsoft.VCLibs, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\".
+InitializeBuildStatus:
+  Criando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\fmt\fmt.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\fmt\fmt.tlog\unsuccessfulbuild".
+ClCompile:
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+Lib:
+  Todas as saídas estão atualizadas.
+  fmt.vcxproj -> C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\fmt\fmt.lib
+ComputeProcessXamlFiles:
+  (Out) ProcessedXamlFiles ==
+CustomOutputGroupForPackaging:
+  (Out) Project='fmt' ProcessedXamlFiles ==
+  (Out) XamlPackagingRootFolder == C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\fmt\Generated Files\
+  (Out) ProcessedXamlFilesFullPath ==
+  (Out) Project='fmt' CustomOutputGroupForPackagingOutput ==
+_GenerateProjectPriFileCore:
+Ignorando o destino "_GenerateProjectPriFileCore" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+FinalizeBuildStatus:
+  Excluindo o arquivo "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\fmt\fmt.tlog\unsuccessfulbuild".
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\fmt\fmt.tlog\fmt.lastbuildstate".
+Projeto de compilação pronto "C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj" (destinos padrão).
+
+DownloadFolly:
+Ignorando o destino "DownloadFolly" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+WriteCGManifest:
+Ignorando o destino "WriteCGManifest" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+ApplyFollyTemporaryPatch:
+  Applying temporary patches to folly.
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\TEMP_UntilFollyUpdate\portability\Unistd.cpp" para "C:\Coding\RNWTest\node_modules\.folly\folly-2022.11.28.00\folly\portability\Unistd.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\TEMP_UntilFollyUpdate\lang\ToAscii.h" para "C:\Coding\RNWTest\node_modules\.folly\folly-2022.11.28.00\folly\lang\ToAscii.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\TEMP_UntilFollyUpdate\dynamic-inl.h" para "C:\Coding\RNWTest\node_modules\.folly\folly-2022.11.28.00\folly\dynamic-inl.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\TEMP_UntilFollyUpdate\lang\SafeAssert.h" para "C:\Coding\RNWTest\node_modules\.folly\folly-2022.11.28.00\folly\lang\SafeAssert.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\TEMP_UntilFollyUpdate\lang\ToAscii.cpp" para "C:\Coding\RNWTest\node_modules\.folly\folly-2022.11.28.00\folly\lang\ToAscii.cpp".
+GetInstalledSDKLocations:
+  Pesquisando SDKs destinados a "UAP, 10.0.19041.0".
+  Pesquisando SDKs destinados a "Windows, 8.1".
+ResolveSDKReferences:
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|x64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-x64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no manifesto d
+  o SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx" no manifesto do SDK.
+ExpandSDKReferences:
+  Enumerando Referência de SDK "Microsoft.VCLibs, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\".
+InitializeBuildStatus:
+  Criando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Folly\Folly.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Folly\Folly.tlog\unsuccessfulbuild".
+ClCompile:
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+Lib:
+  Todas as saídas estão atualizadas.
+  Folly.vcxproj -> C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Folly\Folly.lib
+ComputeProcessXamlFiles:
+  (Out) ProcessedXamlFiles ==
+CustomOutputGroupForPackaging:
+  (Out) Project='Folly' ProcessedXamlFiles ==
+  (Out) XamlPackagingRootFolder == C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Folly\Generated Files\
+  (Out) ProcessedXamlFilesFullPath ==
+  (Out) Project='Folly' CustomOutputGroupForPackagingOutput ==
+_GenerateProjectPriFileCore:
+Ignorando o destino "_GenerateProjectPriFileCore" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+FinalizeBuildStatus:
+  Excluindo o arquivo "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Folly\Folly.tlog\unsuccessfulbuild".
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Folly\Folly.tlog\Folly.lastbuildstate".
+Projeto de compilação pronto "C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj" (destinos padrão).
+
+O projeto "C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" (6:7) está compilando "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj" (5
+:7) no nó 1 (destinos padrão).
+DownloadNodeApiJsi:
+Ignorando o destino "DownloadNodeApiJsi" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+WriteCGManifest:
+Ignorando o destino "WriteCGManifest" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+ApplyReactCommonTemporaryPatch:
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\bridging\LongLivedObject.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\react\bridg
+  ing\LongLivedObject.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\bridging\LongLivedObject.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\react\bridgin
+  g\LongLivedObject.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\jsi\jsi\test\testlib.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\jsi\jsi\test\testlib.
+  cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\nativemodule\core\ReactCommon\TurboModuleBinding.h" para "C:\Coding\RNWTest\node_modules\react-native\R
+  eactCommon\react\nativemodule\core\ReactCommon\TurboModuleBinding.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\bridging\CallbackWrapper.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\react\bridgin
+  g\CallbackWrapper.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\nativemodule\core\ReactCommon\TurboModuleBinding.cpp" para "C:\Coding\RNWTest\node_modules\react-native
+  \ReactCommon\react\nativemodule\core\ReactCommon\TurboModuleBinding.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\primitives.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\re
+  act\renderer\components\view\primitives.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\TouchEventEmitter.cpp" para "C:\Coding\RNWTest\node_modules\react-native\React
+  Common\react\renderer\components\view\TouchEventEmitter.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\nativemodule\core\ReactCommon\TurboModuleUtils.h" para "C:\Coding\RNWTest\node_modules\react-native\Rea
+  ctCommon\react\nativemodule\core\ReactCommon\TurboModuleUtils.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\ViewEventEmitter.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactC
+  ommon\react\renderer\components\view\ViewEventEmitter.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\TouchEventEmitter.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCo
+  mmon\react\renderer\components\view\TouchEventEmitter.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\ViewEventEmitter.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCom
+  mon\react\renderer\components\view\ViewEventEmitter.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\ViewShadowNode.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactCom
+  mon\react\renderer\components\view\ViewShadowNode.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\ViewProps.h" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\rea
+  ct\renderer\components\view\ViewProps.h".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\ViewProps.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\r
+  eact\renderer\components\view\ViewProps.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\mapbuffer\MapBufferBuilder.cpp" para "C:\Coding\RNWTest\node_modules\react-native\ReactCommon\
+  react\renderer\mapbuffer\MapBufferBuilder.cpp".
+  Copiando o arquivo de "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\TEMP_UntilReactCommonUpdate\react\renderer\components\view\YogaStylableProps.cpp" para "C:\Coding\RNWTest\node_modules\react-native\React
+  Common\react\renderer\components\view\YogaStylableProps.cpp".
+GetInstalledSDKLocations:
+  Pesquisando SDKs destinados a "UAP, 10.0.19041.0".
+  Pesquisando SDKs destinados a "Windows, 8.1".
+ResolveSDKReferences:
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|x64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-x64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no manifesto d
+  o SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx" no manifesto do SDK.
+ExpandSDKReferences:
+  Enumerando Referência de SDK "Microsoft.VCLibs, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\".
+InitializeBuildStatus:
+  Criando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\ReactCommon\ReactCommon.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\ReactCommon\ReactCommon.tlog\unsuccessfulbuild".
+ClCompile:
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+Lib:
+  Todas as saídas estão atualizadas.
+  ReactCommon.vcxproj -> C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\ReactCommon\ReactCommon.lib
+ComputeProcessXamlFiles:
+  (Out) ProcessedXamlFiles ==
+CustomOutputGroupForPackaging:
+  (Out) Project='ReactCommon' ProcessedXamlFiles ==
+  (Out) XamlPackagingRootFolder == C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\ReactCommon\Generated Files\
+  (Out) ProcessedXamlFilesFullPath ==
+  (Out) Project='ReactCommon' CustomOutputGroupForPackagingOutput ==
+_GenerateProjectPriFileCore:
+Ignorando o destino "_GenerateProjectPriFileCore" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+FinalizeBuildStatus:
+  Excluindo o arquivo "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\ReactCommon\ReactCommon.tlog\unsuccessfulbuild".
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\ReactCommon\ReactCommon.tlog\ReactCommon.lastbuildstate".
+Projeto de compilação pronto "C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj" (destinos padrão).
+
+GetCppWinRTProjectWinMDReferences:
+  CppWinRTStaticProjectWinMDReferences:
+  CppWinRTDynamicProjectWinMDReferences:
+CppWinRTGetResolvedWinMD:
+  GetResolvedWinMD: C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Microsoft.ReactNative\Microsoft.ReactNative.winmd
+GetInstalledSDKLocations:
+  Pesquisando SDKs destinados a "UAP, 10.0.19041.0".
+  Pesquisando SDKs destinados a "Windows, 8.1".
+PrintWinUIConfig:
+  UseWinUI3 = false
+  WinUIPackage = Microsoft.UI.Xaml.2.8.0
+ResolveSDKReferences:
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|X64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-X64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no
+  manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.Desktop.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx" no manifesto do SDK.
+    Lendo o arquivo de manifesto do SDK "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\SDKManifest.xml".
+    Configuração e arquitetura de destino "Debug|x64"
+    Não foi possível encontrar o atributo "FrameworkIdentity" "FrameworkIdentity-Debug-x64" no manifesto do SDK.
+    Foi encontrado o atributo "FrameworkIdentity" "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" no manifesto d
+  o SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x86=.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-x64=.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM=.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx" no manifesto do SDK.
+    Foi encontrado o atributo de localização "APPX" "AppX-Debug-ARM64=.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx" no manifesto do SDK.
+ExpandSDKReferences:
+  Enumerando Referência de SDK "Microsoft.VCLibs.Desktop, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\".
+  Enumerando Referência de SDK "Microsoft.VCLibs, Version=14.0" de "C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\".
+InitializeBuildStatus:
+  Tocando "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Microsof.f7d32bd0.tlog\unsuccessfulbuild".
+GetCppWinRTPlatformWinMDReferences:
+  CppWinRTPlatformWinMDReferences: C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.MachineLearningContract\3.0.0.0\Windows.AI.MachineLearning.MachineLearningContract.winmd;C:\Program F
+  iles (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract\2.0.0.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd;C:\Program Files (x86)\Wind
+  ows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\2.0.0.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd;C:\Program Files (x86)\Windows Kits\10\Ref
+  erences\10.0.19041.0\Windows.ApplicationModel.Calls.CallsPhoneContract\5.0.0.0\Windows.ApplicationModel.Calls.CallsPhoneContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.C
+  alls.CallsVoipContract\4.0.0.0\Windows.ApplicationModel.Calls.CallsVoipContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContrac
+  t\2.0.0.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract\2.0.0.0\Windo
+  ws.ApplicationModel.SocialInfo.SocialInfoContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.StartupTaskContract\3.0.0.0\Windows.ApplicationModel.StartupTaskContract.winmd;C
+  :\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\Windows.Devices.Custom.CustomDeviceContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041
+  .0\Windows.Devices.DevicesLowLevelContract\3.0.0.0\Windows.Devices.DevicesLowLevelContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.PrintersContract\1.0.0.0\Windows.Device
+  s.Printers.PrintersContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract\3.0.0.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerCont
+  ract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardEmulatorContract\6.0.0.0\Windows.Devices.SmartCards.SmartCardEmulatorContract.winmd;C:\Program Files (x86)\Windows
+   Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContrac
+  t\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.XboxLive.StorageApiContract\1.0.0.0\Windows.Gaming.XboxLive.StorageApiContract.winmd;C:\P
+  rogram Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Graphics.Printing3D.Printing3DContract\4.0.0.0\Windows.Graphics.Printing3D.Printing3DContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19
+  041.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Sockets.ControlChannelTriggerCon
+  tract\3.0.0.0\Windows.Networking.Sockets.ControlChannelTriggerContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract\2.0.0.0\Windows.Securi
+  ty.Isolation.Isolatedwindowsenvironmentcontract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.GuidanceContract\3.0.0.0\Windows.Services.Maps.GuidanceContract.winmd;C:\Program File
+  s (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.LocalSearchContract\4.0.0.0\Windows.Services.Maps.LocalSearchContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Service
+  s.Store.StoreContract\4.0.0.0\Windows.Services.Store.StoreContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.TargetedContent.TargetedContentContract\1.0.0.0\Windows.Services.Target
+  edContent.TargetedContentContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Storage.Provider.CloudFilesContract\4.0.0.0\Windows.Storage.Provider.CloudFilesContract.winmd;C:\Program Files (x
+  86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\Windows.System.Profile.ProfileHardwareTokenContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0
+  \Windows.System.Profile.ProfileSharedModeContract\2.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.SystemManufacturers.Syste
+  mManufacturersContract\3.0.0.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.SystemManagementContract\7.0.0.0\Windo
+  ws.System.SystemManagementContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract\1.0.0.0\Windows.UI.ViewManagement.ViewManagementViewScalingC
+  ontract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract\2.0.0.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract.winmd
+GetCppWinRTDirectWinMDReferences:
+  CppWinRTDirectWinMDReferences: C:\Users\joao_\.nuget\packages\microsoft.ui.xaml\2.8.0\lib\uap10.0\Microsoft.UI.Xaml.winmd;C:\Users\joao_\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\Microsoft.Web.WebView2.Core.winm
+  d
+CppWinRTSetMidlReferences:
+Ignorando o destino "CppWinRTSetMidlReferences" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+Midl:
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+GetCppWinRTMdMergeInputs:
+  CppWinRTMdMergeInputs: C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IJSValueReader.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.Rea
+  ctNative\Unmerged\IJSValueWriter.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactContext.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debu
+  g\Microsoft.ReactNative\Unmerged\IReactDispatcher.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactModuleBuilder.winmd;C:\Coding\RNWTest\node_modules\react-native
+  -windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactNonAbiValue.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactNotificationService.winmd;C:\Coding\RNW
+  Test\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactPackageBuilder.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactPackag
+  eProvider.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IReactPropertyBag.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNa
+  tive\Unmerged\JsiApi.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\QuirkSettings.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.
+  ReactNative\Unmerged\ReactCoreInjection.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\ReactInstanceSettings.winmd;C:\Coding\RNWTest\node_modules\react-native-windows
+  \build\x64\Debug\Microsoft.ReactNative\Unmerged\ReactNativeHost.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\RedBoxHandler.winmd;C:\Coding\RNWTest\node_modules\reac
+  t-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\CoreAppPage.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\DesktopWindowMessage.winmd;C:\Coding\RNWTes
+  t\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\DevMenuControl.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\DocString.winmd;C:\Co
+  ding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IViewManager.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\IViewManager
+  Core.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\ReactApplication.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\U
+  nmerged\AccessibilityAction.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\Effects.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft
+  .ReactNative\Unmerged\DynamicAutomationPeer.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\ViewPanel.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x
+  64\Debug\Microsoft.ReactNative\Unmerged\LayoutService.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\XamlUIService.winmd;C:\Coding\RNWTest\node_modules\react-native-w
+  indows\build\x64\Debug\Microsoft.ReactNative\Unmerged\ReactRootView.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\XamlHelper.winmd;C:\Coding\RNWTest\node_modules\rea
+  ct-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\ReactPointerEventArgs.winmd;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Unmerged\XamlMetaDataProvider.winmd
+  CppWinRTMdMergeMetadataDirectories: C:\Users\joao_\.nuget\packages\microsoft.ui.xaml\2.8.0\lib\uap10.0\;C:\Users\joao_\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\;C:\Program Files (x86)\Windows Kits\10\References
+  \10.0.19041.0\Windows.AI.MachineLearning.MachineLearningContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract\2.0.0.0\;C:\Program F
+  iles (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\2.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Call
+  sPhoneContract\5.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.CallsVoipContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Applicat
+  ionModel.CommunicationBlocking.CommunicationBlockingContract\2.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract\2.0.0.0\;C:\Program Files (x86)\Wind
+  ows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.StartupTaskContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\;C:\Program Files (
+  x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.DevicesLowLevelContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.PrintersContract\1.0.0.0\;C:\Program Files
+   (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardEmulato
+  rContract\6.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiC
+  ontract\10.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.XboxLive.StorageApiContract\1.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Graphics.Printing3D.
+  Printing3DContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networki
+  ng.Sockets.ControlChannelTriggerContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract\2.0.0.0\;C:\Program Files (x86)\Windows Kits\10\R
+  eferences\10.0.19041.0\Windows.Services.Maps.GuidanceContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.LocalSearchContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\
+  References\10.0.19041.0\Windows.Services.Store.StoreContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.TargetedContent.TargetedContentContract\1.0.0.0\;C:\Program Files (x86)\Wi
+  ndows Kits\10\References\10.0.19041.0\Windows.Storage.Provider.CloudFilesContract\4.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\;C:\Progra
+  m Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileSharedModeContract\2.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.SystemManufacturers.System
+  ManufacturersContract\3.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.SystemManagementContract\7.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ViewMan
+  agement.ViewManagementViewScalingContract\1.0.0.0\;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract\2.0.0.0\
+CppWinRTMergeProjectWinMDInputs:
+Ignorando o destino "CppWinRTMergeProjectWinMDInputs" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+CppWinRTCopyWinMDToOutputDirectory:
+Ignorando o destino "CppWinRTCopyWinMDToOutputDirectory" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+MarkupCompilePass1:
+  (Out) GeneratedCodeFiles: 'C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\CoreAppPage.xaml.g.h;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Mi
+  crosoft.ReactNative\Generated Files\DevMenuControl.xaml.g.h;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\XamlLibMetadataProvider.g.cpp;C:\Coding\RNWTest\node_modul
+  es\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\XamlTypeInfo.Impl.g.cpp'
+  (Out) GeneratedXamlFiles: 'C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\CoreAppPage.xaml;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Micros
+  oft.ReactNative\Generated Files\DevMenuControl.xaml'
+  (Out) GeneratedXbfFiles: 'C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\CoreAppPage.xbf;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsof
+  t.ReactNative\Generated Files\DevMenuControl.xbf'
+  (Out) ClCompile: 'C:\Coding\RNWTest\node_modules\react-native-windows\Chakra\ChakraHelpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Chakra\ChakraPlatform.cpp;C:\Coding\RNWTest\node_modules\react-native-windows
+  \Chakra\ChakraTracing.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Chakra\ChakraUtils.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Chakra\ChakraValue.cpp;C:\Coding\RNWTest\node_modules\react-native-wind
+  ows\Chakra\Utf8DebugExtensions.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\codegen\react\components\rnwcore\EventEmitters.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\codegen\react\
+  components\rnwcore\Props.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\codegen\react\components\rnwcore\ShadowNodes.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\
+  Fabric\Composition\AbiCompositionViewComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\ComponentViewRegistry.cpp;C:\Coding\RNWTest\node_modules\react-nat
+  ive-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionContextHelper.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\ReactCompositionViewComponent
+  Builder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionEventHandler.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNati
+  ve\Fabric\Composition\CompositionHelpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionHwndHost.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\
+  Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionRootAutomationProvider.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionDynamicAutomationProv
+  ider.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionRootView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabr
+  ic\Composition\CompositionUIService.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\CompositionViewComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-wind
+  ows\Shared\..\Microsoft.ReactNative\Fabric\Composition\ImageComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\ParagraphComponentView.cpp;C:\Coding\RNWTes
+  t\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\RootComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\ScrollViewCo
+  mponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\SwitchComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNati
+  ve\Fabric\Composition\TextInput\WindowsTextInputComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\TextInput\WindowsTextInputEventEmitter.cpp;C:\Coding\RN
+  WTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\TextInput\WindowsTextInputProps.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Compos
+  ition\TextInput\WindowsTextInputShadowNode.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\TextInput\WindowsTextInputState.cpp;C:\Coding\RNWTest\node_modules\react-n
+  ative-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\UiaHelpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\AbiViewComponentDescriptor.cpp;C:\Coding\RNWTest\node
+  _modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\AbiViewProps.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\WindowsComponentDescriptorRegistry.cpp;C:\Codin
+  g\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\Composition\UnimplementedNativeViewComponentView.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabr
+  ic\DWriteHelpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\FabricUIManagerModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fa
+  bric\ImageManager.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\ImageRequest.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\pla
+  tform\react\components\view\windows\WindowsViewProps.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\platform\react\renderer\graphics\Color.cpp;C:\Coding\RNWTest\node_modules\re
+  act-native-windows\Shared\..\Microsoft.ReactNative\Fabric\platform\react\renderer\textlayoutmanager\TextLayoutManager.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\ReactNative
+  ConfigProperties.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Fabric\WindowsImageManager.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\Sche
+  dulerSettings.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\BaseFileReaderResource.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\BaseScriptStoreImpl.cpp;C:\Coding\RNWTest\node_modules\react-
+  native-windows\Shared\ChakraRuntimeHolder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\CxxMessageQueue.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\DevSupportManager.cpp;C:\Coding\RNWTest\
+  node_modules\react-native-windows\Shared\Executors\WebSocketJSExecutor.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Executors\WebSocketJSExecutorFactory.cpp;C:\Coding\RNWTest\node_modules\react-native-windo
+  ws\Shared\HermesRuntimeHolder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\HermesSamplingProfiler.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\InspectorPackagerConnection.cpp;C:\Coding\RNW
+  Test\node_modules\react-native-windows\Shared\InstanceManager.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\JSBigAbiString.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\JSI\ChakraApi.cpp;C:\
+  Coding\RNWTest\node_modules\react-native-windows\Shared\JSI\ChakraJsiRuntime_edgemode.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\JSI\ChakraRuntime.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\S
+  hared\JSI\V8RuntimeHolder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\LayoutAnimation.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Logging.cpp;C:\Coding\RNWTest\node_modules\react-native-
+  windows\Shared\MemoryMappedBuffer.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\BlobModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\CxxModuleUtilities.cpp;C:\Coding\RNWT
+  est\node_modules\react-native-windows\Shared\Modules\ExceptionsManagerModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\FileReaderModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Sha
+  red\Modules\HttpModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\I18nModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\NetworkingModule.cpp;C:\Coding\RNWTest\node_modu
+  les\react-native-windows\Shared\Modules\PlatformConstantsModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\SourceCodeModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\S
+  tatusBarManagerModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Modules\WebSocketModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Networking\DefaultBlobResource.cpp;C:\Coding\RNWTest
+  \node_modules\react-native-windows\Shared\Networking\OriginPolicyHttpFilter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Networking\RedirectHttpFilter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows
+  \Shared\Networking\WinRTHttpResource.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Networking\WinRTWebSocketResource.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\OInstance.cpp;C:\Coding\RNW
+  Test\node_modules\react-native-windows\Shared\PackagerConnection.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\RuntimeOptions.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\SafeLoadLibrary.cp
+  p;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Threading\BatchingQueueThread.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Threading\MessageDispatchQueue.cpp;C:\Coding\RNWTest\node_modules\reac
+  t-native-windows\Shared\Threading\MessageQueueThreadFactory.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\tracing\tracing.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\TurboModuleManager.cpp
+  ;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Utils.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\Utils\WinRTConversions.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Micros
+  oft.ReactNative\DynamicReader.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\DynamicWriter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\IRea
+  ctNotificationService.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\IReactPropertyBag.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\QuirkSet
+  tings.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\ReactPackageBuilder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\ReactNativeHost.cpp;C:
+  \Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\RedBoxHandler.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\ReactInstanceSettings.cpp;C:\Coding\RNWT
+  est\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\ReactCoreInjection.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\IReactContext.cpp;C:\Coding\RNWTest\node_module
+  s\react-native-windows\Shared\..\Microsoft.ReactNative\JsiReader.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\JsiWriter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Share
+  d\..\Microsoft.ReactNative\JsiApi.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\IReactModuleBuilder.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactN
+  ative\IReactDispatcher.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Shared\..\Microsoft.ReactNative\JSDispatcherWriter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Modules\DevSetti
+  ngsModule.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Modules\ReactRootViewTagGenerator.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\NativeModulesProvider.cp
+  p;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\AsyncActionQueue.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\CrashManager.cpp;C:\Coding\RNWTes
+  t\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\JSBundle_Win32.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\JSBundle.cpp;C:\Coding\RNWTest\node_modules\react-nat
+  ive-windows\Microsoft.ReactNative\ReactHost\JSCallInvokerScheduler.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\MsoReactContext.cpp;C:\Coding\RNWTest\node_modules\react-native-windo
+  ws\Microsoft.ReactNative\ReactHost\MsoUtils.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\ReactErrorProvider.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNa
+  tive\ReactHost\ReactHost.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\ReactHost\ReactInstanceWin.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\RedBox.cpp;C:\Co
+  ding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\RedBoxErrorFrameInfo.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\RedBoxErrorInfo.cpp;C:\Coding\RNWTest\node_modules\react
+  -native-windows\Microsoft.ReactNative\TurboModulesProvider.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Utils\Helpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNa
+  tive\Utils\ImageUtils.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Views\DevMenu.cpp;C:\Coding\RNWTest\node_modules\.node-api-jsi\node-api-jsi-53b897b03c1c7e57c3372acc6234447a44e150d6\src\Api
+  Loaders\HermesApi.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\activeObject\activeObject.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\crash\crash_min.cpp;C:\Coding\RNWTest\node_modules\r
+  eact-native-windows\Mso\src\debugAssertApi\debugAssertApi.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\dispatchQueue\queueService.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\dispatchQue
+  ue\taskBatch.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\dispatchQueue\looperScheduler.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\dispatchQueue\taskContext.cpp;C:\Coding\RNWTest\node_
+  modules\react-native-windows\Mso\src\dispatchQueue\taskQueue.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\dispatchQueue\threadPoolScheduler_win.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\s
+  rc\dispatchQueue\uiScheduler_winrt.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\errorCode\errorCode.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\eventWaitHandle\eventWaitHandleImpl_win.c
+  pp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\cancellationTokenImpl.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\executor.cpp;C:\Coding\RNWTest\node_modules\react-native-wind
+  ows\Mso\src\future\futureImpl.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\futureTask.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\promise.cpp;C:\Coding\RNWTest\node_module
+  s\react-native-windows\Mso\src\future\promiseGroup.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\whenAll.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\future\whenAny.cpp;C:\Coding\R
+  NWTest\node_modules\react-native-windows\Mso\src\memoryApi\memoryApi.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mso\src\memoryApi\memoryLeakScope_EmptyImpl.cpp;C:\Coding\RNWTest\node_modules\react-native-windows
+  \Microsoft.ReactNative.Cxx\JSI\JsiAbiApi.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\JSI\JsiApiContext.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\J
+  SI\JsiValueHelpers.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\JSValue.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\JSValueTreeReader.cpp;C:\Coding\R
+  NWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\JSValueTreeWriter.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\ModuleRegistration.cpp;C:\Coding\RNWTest\node_modules\rea
+  ct-native-windows\Microsoft.ReactNative.Cxx\ReactPromise.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\TurboModuleProvider.cpp;C:\Coding\RNWTest\node_modules\react-native\\ReactCommon\jsi\
+  jsi\jsi.cpp;C:\Coding\RNWTest\node_modules\.node-api-jsi\node-api-jsi-53b897b03c1c7e57c3372acc6234447a44e150d6\src\ApiLoaders\NodeApi.cpp;C:\Coding\RNWTest\node_modules\.node-api-jsi\node-api-jsi-53b897b03c1c7e57c3372acc6234
+  447a44e150d6\src\ApiLoaders\JSRuntimeApi.cpp;C:\Coding\RNWTest\node_modules\.node-api-jsi\node-api-jsi-53b897b03c1c7e57c3372acc6234447a44e150d6\src\NodeApiJsiRuntime.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\Mi
+  crosoft.ReactNative.Cxx\JSI\NodeApiJsiLoader.cpp;ABICxxModule.cpp;ABIViewManager.cpp;Base\CoreUIManagers.cpp;CoreAppPage.cpp;CoreApp.cpp;Utils\BatchingEventEmitter.cpp;CxxReactUWP\JSBigString.cpp;DevMenuControl.cpp;GlyphView
+  Manager.cpp;Modules\AccessibilityInfoModule.cpp;Modules\AlertModule.cpp;Modules\Animated\AdditionAnimatedNode.cpp;Modules\Animated\AnimatedNode.cpp;Modules\Animated\AnimatedPlatformConfig.cpp;Modules\Animated\AnimationDriver
+  .cpp;Modules\Animated\CalculatedAnimationDriver.cpp;Modules\Animated\DecayAnimationDriver.cpp;Modules\Animated\DiffClampAnimatedNode.cpp;Modules\Animated\DivisionAnimatedNode.cpp;Modules\Animated\EventAnimationDriver.cpp;Mod
+  ules\Animated\FrameAnimationDriver.cpp;Modules\Animated\InterpolationAnimatedNode.cpp;Modules\Animated\ModulusAnimatedNode.cpp;Modules\Animated\MultiplicationAnimatedNode.cpp;Modules\Animated\NativeAnimatedModule.cpp;Modules
+  \Animated\NativeAnimatedNodeManager.cpp;Modules\Animated\PropsAnimatedNode.cpp;Modules\Animated\SpringAnimationDriver.cpp;Modules\Animated\StyleAnimatedNode.cpp;Modules\Animated\SubtractionAnimatedNode.cpp;Modules\Animated\T
+  rackingAnimatedNode.cpp;Modules\Animated\TransformAnimatedNode.cpp;Modules\Animated\ValueAnimatedNode.cpp;Modules\AppearanceModule.cpp;Modules\AppStateModule.cpp;Modules\AppThemeModuleUwp.cpp;Modules\ClipboardModule.cpp;Modu
+  les\CreateModules.cpp;Modules\DeviceInfoModule.cpp;Modules\I18nManagerModule.cpp;Modules\ImageViewManagerModule.cpp;Modules\LinkingManagerModule.cpp;Modules\LogBoxModule.cpp;Modules\NativeUIManager.cpp;Modules\TimingModule.c
+  pp;Modules\PaperUIManagerModule.cpp;ReactPointerEventArgs.cpp;Pch\pch.cpp;ReactApplication.cpp;C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Generated Files\module.g.cpp;Utils\Acce
+  ssibilityUtils.cpp;Utils\KeyboardUtils.cpp;Utils\LocalBundleReader.cpp;Utils\ResourceBrushUtils.cpp;Utils\UwpPreparedScriptStore.cpp;Utils\UwpScriptStore.cpp;Utils\ValueUtils.cpp;Utils\XamlIslandUtils.cpp;Views\ActivityIndic
+  atorViewManager.cpp;Views\ConfigureBundlerDlg.cpp;Views\ControlViewManager.cpp;Views\DynamicAutomationPeer.cpp;Views\DynamicAutomationProperties.cpp;Views\DynamicValueProvider.cpp;Views\ExpressionAnimationStore.cpp;Views\Fly
+  outViewManager.cpp;Views\FrameworkElementTransferProperties.cpp;Views\FrameworkElementViewManager.cpp;Views\Image\ImageViewManager.cpp;Views\Image\ReactImage.cpp;Views\Image\ReactImageBrush.cpp;Views\Impl\ScrollViewUWPImplem
+  entation.cpp;Views\Impl\SnapPointManagingContentControl.cpp;Views\KeyboardEventHandler.cpp;Views\PaperShadowNode.cpp;Views\PopupViewManager.cpp;Views\RawTextViewManager.cpp;Views\ReactViewInstance.cpp;Views\RefreshControlMan
+  ager.cpp;Views\RootViewManager.cpp;Views\ScrollContentViewManager.cpp;Views\ScrollViewManager.cpp;Views\ShadowNodeBase.cpp;Views\ShadowNodeRegistry.cpp;Views\SIPEventHandler.cpp;Views\SliderViewManager.cpp;Views\SwitchViewMa
+  nager.cpp;Views\TextInputViewManager.cpp;Views\TextViewManager.cpp;Views\Text\TextHighlighterVisitor.cpp;Views\Text\TextHitTestUtils.cpp;Views\Text\TextHitTestVisitor.cpp;Views\Text\TextParentVisitor.cpp;Views\Text\TextPrope
+  rtyChangedParentVisitor.cpp;Views\Text\TextTransformParentVisitor.cpp;Views\Text\TextTransformVisitor.cpp;Views\Text\TextVisitor.cpp;Views\TouchEventHandler.cpp;Views\ViewControl.cpp;Views\ViewManagerBase.cpp;Views\ViewPanel
+  .cpp;Views\ViewViewManager.cpp;Views\VirtualTextViewManager.cpp;Views\XamlFeatures.cpp;XamlLoadState.cpp;XamlView.cpp;LayoutService.cpp;XamlUIService.cpp;ReactRootView.cpp;ReactSupport.cpp;TestHook.cpp;ViewManagersProvider.c
+  pp;XamlHelper.cpp'
+GetCppWinRTPlatformWinMDInputs:
+  CppWinRTPlatformWinMDInputs: C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.MachineLearningContract\3.0.0.0\Windows.AI.MachineLearning.MachineLearningContract.winmd;C:\Program Files
+   (x86)\Windows Kits\10\References\10.0.19041.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract\2.0.0.0\Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract.winmd;C:\Program Files (x86)\Windows
+  Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\2.0.0.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd;C:\Program Files (x86)\Windows Kits\10\Referen
+  ces\10.0.19041.0\Windows.ApplicationModel.Calls.CallsPhoneContract\5.0.0.0\Windows.ApplicationModel.Calls.CallsPhoneContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.Calls
+  .CallsVoipContract\4.0.0.0\Windows.ApplicationModel.Calls.CallsVoipContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract\2.
+  0.0.0\Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract\2.0.0.0\Windows.A
+  pplicationModel.SocialInfo.SocialInfoContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.ApplicationModel.StartupTaskContract\3.0.0.0\Windows.ApplicationModel.StartupTaskContract.winmd;C:\Pr
+  ogram Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\Windows.Devices.Custom.CustomDeviceContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\W
+  indows.Devices.DevicesLowLevelContract\3.0.0.0\Windows.Devices.DevicesLowLevelContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.Printers.PrintersContract\1.0.0.0\Windows.Devices.Pr
+  inters.PrintersContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract\3.0.0.0\Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract
+  .winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Devices.SmartCards.SmartCardEmulatorContract\6.0.0.0\Windows.Devices.SmartCards.SmartCardEmulatorContract.winmd;C:\Program Files (x86)\Windows Kit
+  s\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10
+  .0.0.0\Windows.Foundation.UniversalApiContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Gaming.XboxLive.StorageApiContract\1.0.0.0\Windows.Gaming.XboxLive.StorageApiContract.winmd;C:\Progr
+  am Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Graphics.Printing3D.Printing3DContract\4.0.0.0\Windows.Graphics.Printing3D.Printing3DContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.
+  0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Networking.Sockets.ControlChannelTriggerContrac
+  t\3.0.0.0\Windows.Networking.Sockets.ControlChannelTriggerContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Security.Isolation.IsolatedWindowsEnvironmentContract\2.0.0.0\Windows.Security.I
+  solation.Isolatedwindowsenvironmentcontract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.GuidanceContract\3.0.0.0\Windows.Services.Maps.GuidanceContract.winmd;C:\Program Files (x
+  86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.Maps.LocalSearchContract\4.0.0.0\Windows.Services.Maps.LocalSearchContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.St
+  ore.StoreContract\4.0.0.0\Windows.Services.Store.StoreContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Services.TargetedContent.TargetedContentContract\1.0.0.0\Windows.Services.TargetedCo
+  ntent.TargetedContentContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Storage.Provider.CloudFilesContract\4.0.0.0\Windows.Storage.Provider.CloudFilesContract.winmd;C:\Program Files (x86)\
+  Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\Windows.System.Profile.ProfileHardwareTokenContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Win
+  dows.System.Profile.ProfileSharedModeContract\2.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.Profile.SystemManufacturers.SystemMan
+  ufacturersContract\3.0.0.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.System.SystemManagementContract\7.0.0.0\Windows.S
+  ystem.SystemManagementContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract\1.0.0.0\Windows.UI.ViewManagement.ViewManagementViewScalingContr
+  act.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract\2.0.0.0\Windows.UI.Xaml.Core.Direct.XamlDirectContract.winmd
+CppWinRTMakePlatformProjection:
+Ignorando o destino "CppWinRTMakePlatformProjection" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+CppWinRTMakeReferenceProjection:
+Ignorando o destino "CppWinRTMakeReferenceProjection" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+CppWinRTMakeComponentProjection:
+Ignorando o destino "CppWinRTMakeComponentProjection" porque todos os arquivos de saída estão atualizados em relação aos arquivos de entrada.
+ROSLYNCODETASKFACTORYCSHARPCOMPILER : warning CS1668: Caminho de pesquisa inválido "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x64\store" especificado em "variável de ambiente LIB" --
+ "diretório não existe" [C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]
+ROSLYNCODETASKFACTORYCSHARPCOMPILER : warning CS1668: Caminho de pesquisa inválido "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\atlmfc\lib\x64" especificado em "variável de ambiente LIB" -
+- "diretório não existe" [C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]
+  Memory class: Low
+ClCompile:
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+  Todas as saídas estão atualizadas.
+ResourceCompile:
+  Todas as saídas estão atualizadas.
+CreateWinMD:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Microsoft.ReactNative\M
+  icrosoft.ReactNative.dll" /INCREMENTAL /ILK:"C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Microsoft.ReactNative.ilk" /NOLOGO /LIBPATH:C:\Users\joao_\.nuget\packages\microsoft.web.
+  webview2\1.0.1264.42\build\native\x64 /NATVIS:"C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.natvis" WebView2Loader.dll.lib winsqlite3.lib ChakraRT.lib dxguid.lib dloadhelper.lib OneCoreUap_apiset.lib Windo
+  wsApp.lib WindowsApp.lib dloadhelper.lib /DEF:"Microsoft.ReactNative.def" /DELAYLOAD:"api-ms-win-core-file-l1-2-0.dll" /DELAYLOAD:"api-ms-win-core-windowserrorreporting-l1-1-0.dll" /DELAYLOAD:"ext-ms-win-uiacore-l1-1-1.dll"
+  /DELAYLOAD:chakra.dll /MANIFEST:NO /DEBUG:FULL /PDB:"C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Microsoft.ReactNative\Microsoft.ReactNative.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD:ONLY
+   /WINMDFILE:"C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Microsoft.ReactNative\Microsoft.ReactNative.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /ignore:4199 /DLL "C:\Coding\RNWTest\node_modules\react
+  -native-windows\build\x64\Debug\Microsoft.ReactNative\Version.res"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraHelpers.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraPlatform.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraTracing.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraValue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Utf8DebugExtensions.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\BaseFileReaderResource.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\BaseScriptStoreImpl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraRuntimeHolder.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CxxMessageQueue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DevSupportManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WebSocketJSExecutor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WebSocketJSExecutorFactory.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\HermesRuntimeHolder.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\HermesSamplingProfiler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\InspectorPackagerConnection.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\InstanceManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSBigAbiString.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraJsiRuntime_edgemode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ChakraRuntime.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\LayoutAnimation.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Logging.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MemoryMappedBuffer.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\BlobModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CxxModuleUtilities.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ExceptionsManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\FileReaderModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\HttpModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\I18nModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PlatformConstantsModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SourceCodeModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\StatusBarManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WebSocketModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DefaultBlobResource.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\OriginPolicyHttpFilter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RedirectHttpFilter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WinRTHttpResource.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WinRTWebSocketResource.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\OInstance.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PackagerConnection.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RuntimeOptions.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SafeLoadLibrary.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\BatchingQueueThread.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MessageDispatchQueue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MessageQueueThreadFactory.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\tracing.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TurboModuleManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Utils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\WinRTConversions.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DynamicReader.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DynamicWriter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\IReactNotificationService.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\IReactPropertyBag.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\QuirkSettings.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactPackageBuilder.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactNativeHost.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RedBoxHandler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactInstanceSettings.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactCoreInjection.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\IReactContext.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiReader.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiWriter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\IReactModuleBuilder.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\IReactDispatcher.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSDispatcherWriter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DevSettingsModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactRootViewTagGenerator.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NativeModulesProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AsyncActionQueue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CrashManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSBundle_Win32.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSBundle.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSCallInvokerScheduler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MsoReactContext.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MsoUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactErrorProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactHost.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactInstanceWin.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RedBox.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RedBoxErrorFrameInfo.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RedBoxErrorInfo.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TurboModulesProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\Helpers.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ImageUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DevMenu.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\HermesApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\activeObject.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\crash_min.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\debugAssertApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\queueService.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\taskBatch.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\looperScheduler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\taskContext.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\taskQueue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\threadPoolScheduler_win.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\uiScheduler_winrt.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\errorCode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\eventWaitHandleImpl_win.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\cancellationTokenImpl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\executor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\futureImpl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\futureTask.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\promise.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\promiseGroup.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\whenAll.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\whenAny.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\memoryApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\memoryLeakScope_EmptyImpl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiAbiApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiApiContext.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JsiValueHelpers.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSValue.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSValueTreeReader.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSValueTreeWriter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ModuleRegistration.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactPromise.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TurboModuleProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\jsi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NodeApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSRuntimeApi.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NodeApiJsiRuntime.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NodeApiJsiLoader.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ABICxxModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ABIViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CoreUIManagers.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CoreAppPage.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CoreApp.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\BatchingEventEmitter.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\JSBigString.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DevMenuControl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\GlyphViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AccessibilityInfoModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AlertModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AdditionAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AnimatedPlatformConfig.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CalculatedAnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DecayAnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DiffClampAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DivisionAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\EventAnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\FrameAnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\InterpolationAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ModulusAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\MultiplicationAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NativeAnimatedModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NativeAnimatedNodeManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PropsAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SpringAnimationDriver.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\StyleAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SubtractionAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TrackingAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TransformAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ValueAnimatedNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AppearanceModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AppStateModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AppThemeModuleUwp.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ClipboardModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\CreateModules.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DeviceInfoModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\I18nManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ImageViewManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\LinkingManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\LogBoxModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\NativeUIManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TimingModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PaperUIManagerModule.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactPointerEventArgs.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\pch.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactApplication.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\module.g.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\AccessibilityUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\KeyboardUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\LocalBundleReader.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ResourceBrushUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\UwpPreparedScriptStore.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\UwpScriptStore.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ValueUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlIslandUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ActivityIndicatorViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ConfigureBundlerDlg.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ControlViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DynamicAutomationPeer.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DynamicAutomationProperties.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\DynamicValueProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ExpressionAnimationStore.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\FlyoutViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\FrameworkElementTransferProperties.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\FrameworkElementViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ImageViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactImage.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactImageBrush.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ScrollViewUWPImplementation.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SnapPointManagingContentControl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\KeyboardEventHandler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PaperShadowNode.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\PopupViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RawTextViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactViewInstance.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RefreshControlManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\RootViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ScrollContentViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ScrollViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ShadowNodeBase.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ShadowNodeRegistry.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SIPEventHandler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SliderViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\SwitchViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextInputViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextHighlighterVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextHitTestUtils.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextHitTestVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextParentVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextPropertyChangedParentVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextTransformParentVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextTransformVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TextVisitor.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TouchEventHandler.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ViewControl.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ViewManagerBase.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ViewPanel.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ViewViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\VirtualTextViewManager.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlFeatures.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlLoadState.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlView.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\LayoutService.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlUIService.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactRootView.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ReactSupport.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\TestHook.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\ViewManagersProvider.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlHelper.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlTypeInfo.Impl.g.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\build\x64\Debug\Microsoft.ReactNative\XamlLibMetadataProvider.g.obj"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Common\Common.lib"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\fmt\fmt.lib"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\Folly\Folly.lib"
+  "C:\Coding\RNWTest\node_modules\react-native-windows\target\x64\Debug\ReactCommon\ReactCommon.lib"
+LINK : fatal error LNK1104: não é possível abrir o arquivo 'msvcprtd.lib' [C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(486,5): error MSB4181: A tarefa "CompileXaml" retornou false, mas não registrou um erro. [C:\Coding\RNWTest\node_mod
+ules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]
+Projeto de compilação pronto "C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj" (destinos padrão) -- FALHA.
+
+Projeto de compilação pronto "C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj.metaproj" (destinos padrão) -- FALHA.
+
+Projeto de compilação pronto "C:\Coding\RNWTest\windows\RNWTest.sln" (destinos padrão) -- FALHA.
+
+Mensagens adiadas
+
+  Resumo Detalhado de Build
+  ======================
+
+
+  ============================== Hierarquia de Build (IDs representam configurações) =====================================================
+  Id                  : Tempo Exclusivo   Tempo Total   Caminho (Destinos)
+  -----------------------------------------------------------------------------------------------------------------------------------
+  0                   : 0.316s           0.785s       C:\Coding\RNWTest\windows\RNWTest.sln (Restore)
+  | 12                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 11                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 10                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 9                 : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 8                 : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 1                 : 0.134s           0.134s       C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj (_IsProjectRestoreSupported)
+  | 2                 : 0.031s           0.031s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (_IsProjectRestoreSupported)
+  | 3                 : 0.027s           0.027s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (_IsProjectRestoreSupported)
+  | 4                 : 0.030s           0.030s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (_IsProjectRestoreSupported)
+  | 5                 : 0.082s           0.082s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj (_IsProjectRestoreSupported)
+  | 6                 : 0.023s           0.023s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (_IsProjectRestoreSupported)
+  | 7                 : 0.005s           0.012s       C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj (_GenerateRestoreProjectPathWalk)
+  | . 11              : 0.002s           0.007s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj (_GenerateRestoreProjectPathWalk)
+  | | | 12            : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (_GenerateRestoreProjectPathWalk)
+  | | | 8             : 0.002s           0.003s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (_GenerateRestoreProjectPathWalk)
+  | | | . 9           : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (_GenerateRestoreProjectPathWalk)
+  | | . 10            : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (_GenerateRestoreProjectPathWalk)
+  | 13                : 0.067s           0.067s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 14                : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 15                : 0.006s           0.006s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 16                : 0.003s           0.003s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 17                : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 18                : 0.006s           0.006s       C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj (_GenerateRestoreGraphProjectEntry)
+  | 19                : 0.034s           0.034s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj (_GenerateProjectRestoreGraph)
+  | 20                : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (_GenerateProjectRestoreGraph)
+  | 21                : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (_GenerateProjectRestoreGraph)
+  | 22                : 0.003s           0.003s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (_GenerateProjectRestoreGraph)
+  | 23                : 0.003s           0.003s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (_GenerateProjectRestoreGraph)
+  . 24                : 0.002s           0.002s       C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj (_GenerateProjectRestoreGraph)
+
+  ============================== Utilização do Nó (IDs representam configurações) ====================================================
+  Carimbo de data/hora:            1        Duração Cumulativa
+  -----------------------------------------------------------------------------------------------------------------------------------
+  638315865275912241:   0        0,043s     0,043s
+  638315865276340742:   1        0,134s     0,177s ..
+  638315865277677573:   2        0,031s     0,208s
+  638315865277990840:   3        0,027s     0,235s
+  638315865278263255:   4        0,030s     0,265s
+  638315865278563199:   5        0,082s     0,347s .
+  638315865279381501:   6        0,023s     0,370s
+  638315865279607674:   0        0,007s     0,377s
+  638315865279677672:   7        0,003s     0,380s
+  638315865279708690:   11       0,002s     0,381s
+  638315865279723745:   12       0,001s     0,382s
+  638315865279735214:   8        0,001s     0,384s
+  638315865279749695:   9        0,001s     0,385s
+  638315865279759779:   8        0,001s     0,386s
+  638315865279769772:   10       0,001s     0,387s
+  638315865279781243:   7        0,001s     0,388s
+  638315865279795241:   0        0,003s     0,391s
+  638315865279825302:   13       0,067s     0,458s .
+  638315865280490671:   14       0,002s     0,460s
+  638315865280512313:   15       0,006s     0,466s
+  638315865280567765:   16       0,003s     0,469s
+  638315865280601026:   17       0,002s     0,471s
+  638315865280619251:   18       0,006s     0,476s
+  638315865280675786:   0        0,001s     0,478s
+  638315865280688595:   19       0,034s     0,512s
+  638315865281029947:   20       0,002s     0,514s
+  638315865281050022:   21       0,002s     0,516s
+  638315865281070001:   22       0,003s     0,519s
+  638315865281100105:   23       0,003s     0,522s
+  638315865281130046:   24       0,002s     0,523s
+  638315865281146027:   0        0,262s     0,785s .....
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Utilização:          100,0    Utilização Média: 100,0
+
+  Resumo Detalhado de Build
+  ======================
+
+
+  ============================== Hierarquia de Build (IDs representam configurações) =====================================================
+  Id                  : Tempo Exclusivo   Tempo Total   Caminho (Destinos)
+  -----------------------------------------------------------------------------------------------------------------------------------
+  25                  : 0.009s           3.585s       C:\Coding\RNWTest\windows\RNWTest.sln ()
+  | 31                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj ()
+  | 30                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj ()
+  | 28                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj ()
+  | 27                : 0.000s           0.000s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj ()
+  | 26                : 0.001s           3.576s       C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj.metaproj ()
+  | . 30              : 2.805s           3.574s       C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj ()
+  | | | 31            : 0.312s           0.312s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj ()
+  | | | 27            : 0.154s           0.266s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj ()
+  | | | | 28          : 0.110s           0.110s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj ()
+  | | | | 33          : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (GetNativeManifest)
+  | | | . 34          : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\fmt\fmt.vcxproj (GetProjectInfoForReference)
+  | | | 32            : 0.183s           0.186s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj ()
+  | | | | 35          : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (GetNativeManifest)
+  | | | . 36          : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj (GetProjectInfoForReference)
+  | | | 37            : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (GetNativeManifest)
+  | | | 38            : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (GetNativeManifest)
+  | | | 39            : 0.002s           0.002s       C:\Coding\RNWTest\node_modules\react-native-windows\Common\Common.vcxproj (GetProjectInfoForReference)
+  | | . 40            : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj (GetProjectInfoForReference)
+  . 29                : 0.001s           0.001s       C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj.metaproj ()
+
+  ============================== Utilização do Nó (IDs representam configurações) ====================================================
+  Carimbo de data/hora:            1        Duração Cumulativa
+  -----------------------------------------------------------------------------------------------------------------------------------
+  638315865275912241:   0        0,043s     0,043s
+  638315865276340742:   1        0,134s     0,177s ..
+  638315865277677573:   2        0,031s     0,208s
+  638315865277990840:   3        0,027s     0,235s
+  638315865278263255:   4        0,030s     0,265s
+  638315865278563199:   5        0,082s     0,347s .
+  638315865279381501:   6        0,023s     0,370s
+  638315865279607674:   0        0,007s     0,377s
+  638315865279677672:   7        0,003s     0,380s
+  638315865279708690:   11       0,002s     0,381s
+  638315865279723745:   12       0,001s     0,382s
+  638315865279735214:   8        0,001s     0,384s
+  638315865279749695:   9        0,001s     0,385s
+  638315865279759779:   8        0,001s     0,386s
+  638315865279769772:   10       0,001s     0,387s
+  638315865279781243:   7        0,001s     0,388s
+  638315865279795241:   0        0,003s     0,391s
+  638315865279825302:   13       0,067s     0,458s .
+  638315865280490671:   14       0,002s     0,460s
+  638315865280512313:   15       0,006s     0,466s
+  638315865280567765:   16       0,003s     0,469s
+  638315865280601026:   17       0,002s     0,471s
+  638315865280619251:   18       0,006s     0,476s
+  638315865280675786:   0        0,001s     0,478s
+  638315865280688595:   19       0,034s     0,512s
+  638315865281029947:   20       0,002s     0,514s
+  638315865281050022:   21       0,002s     0,516s
+  638315865281070001:   22       0,003s     0,519s
+  638315865281100105:   23       0,003s     0,522s
+  638315865281130046:   24       0,002s     0,523s
+  638315865281146027:   0        0,262s     0,785s .....
+  638315865283933006:   25       0,007s     0,809s
+  638315865284005782:   30       0,113s     0,922s ..
+  638315865285132467:   31       0,312s     1,234s ......
+  638315865288253085:   27       0,031s     1,265s
+  638315865288566874:   28       0,110s     1,375s ..
+  638315865289666648:   27       0,001s     1,377s
+  638315865289678044:   33       0,001s     1,378s
+  638315865289688256:   27       0,024s     1,402s
+  638315865289931123:   34       0,001s     1,403s
+  638315865289941144:   27       0,097s     1,500s .
+  638315865290912733:   32       0,033s     1,534s
+  638315865291247388:   35       0,001s     1,535s
+  638315865291260168:   32       0,028s     1,563s
+  638315865291539230:   36       0,002s     1,565s
+  638315865291559176:   32       0,121s     1,686s ..
+  638315865292774085:   30       0,001s     1,687s
+  638315865292786110:   37       0,005s     1,692s
+  638315865292836198:   38       0,001s     1,693s
+  638315865292846178:   30       0,977s     2,671s ...................
+  638315865302617666:   39       0,002s     2,673s
+  638315865302637721:   40       0,001s     2,674s
+  638315865302647718:   30       1,710s     4,383s ..................................
+  638315865319745933:   26       0,001s     4,385s
+  638315865319760812:   29       0,001s     4,386s
+  638315865319771642:   25       0,001s     4,387s
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Utilização:          99,6     Utilização Média: 99,6
+× Building Solution
+ × Build failed with message LINK : fatal error LNK1104: n�o � poss�vel abrir o arquivo 'msvcprtd.lib' [C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]. Check your build configuration.
+ i Gathering MSBuild data for telemetry.
+ i Loading properties from msbuildproperties.g.json
+Command failed with error MSBuildError: LINK : fatal error LNK1104: n�o � poss�vel abrir o arquivo 'msvcprtd.lib' [C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj]
+Your telemetry sessionId was 7bb8ab47058e12737ce40994313c81cf
