@@ -1,0 +1,172 @@
+Compilação iniciada...
+1>------ Compilação iniciada: Projeto: Microsoft.ReactNative, Configuração: Debug x64 ------
+1>Determinando os projetos a serem restaurados...
+1>C:\Coding\RNWTest\node_modules\react-native-windows\Folly\Folly.vcxproj restaurado (em 1,82 seg).
+1>C:\Coding\RNWTest\node_modules\react-native-windows\ReactCommon\ReactCommon.vcxproj restaurado (em 1,8 seg).
+1>C:\Coding\RNWTest\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj restaurado (em 1,82 seg).
+1>2 de 5 projetos estão atualizados para restauração.
+1>Determinando os projetos a serem restaurados...
+1>Applying temporary patches to folly.
+1>Determinando os projetos a serem restaurados...
+1>Determinando os projetos a serem restaurados...
+1>Determinando os projetos a serem restaurados...
+1>Todos os projetos estão atualizados para restauração.
+1>Determinando os projetos a serem restaurados...
+1>Determinando os projetos a serem restaurados...
+1>Applying temporary patches to fmt.
+1>Determinando os projetos a serem restaurados...
+1>ROSLYNCODETASKFACTORYCSHARPCOMPILER : warning CS1668: Caminho de pesquisa inválido "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x64\store" especificado em "variável de ambiente LIB" -- "diretório não existe"
+1>ROSLYNCODETASKFACTORYCSHARPCOMPILER : warning CS1668: Caminho de pesquisa inválido "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\atlmfc\lib\x64" especificado em "variável de ambiente LIB" -- "diretório não existe"
+1>LINK : fatal error LNK1104: não é possível abrir o arquivo 'msvcprtd.lib'
+1>C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(486,5): error MSB4181: A tarefa "CompileXaml" retornou false, mas não registrou um erro.
+1>Projeto de compilação pronto "Microsoft.ReactNative.vcxproj" -- FALHA.
+2>------ Compilação iniciada: Projeto: RNWTest, Configuração: Debug x64 ------
+2>Determinando os projetos a serem restaurados...
+2>C:\Coding\RNWTest\windows\RNWTest\RNWTest.vcxproj restaurado (em 1,3 seg).
+2>5 de 6 projetos estão atualizados para restauração.
+2>Determinando os projetos a serem restaurados...
+2>- Checking auto-linked files...
+2>ÔêÜ Checking auto-linked files...
+2>Success: No auto-linking changes necessary. (14ms)
+2>- Running x64 node on a x64 machine
+2>i Running x64 node on a x64 machine
+2>- Running codegen-windows...
+2>
+2>i No codegenConfig specified in package.json - Skipping codegen-windows
+2>Success: No codegen-windows changes necessary. (1ms)
+2>64 bit MIDLRT Processing C:\Coding\RNWTest\windows\RNWTest\App.idl
+2>App.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\winrtbase.idl
+2>winrtbase.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\midlbase.idl
+2>midlbase.idl
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.ui.xaml\2.8.0\lib\uap10.0\microsoft.ui.xaml.winmd
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\microsoft.web.webview2.core.winmd
+2>Processing WinMD c:\coding\rnwtest\node_modules\react-native-windows\target\x64\debug\microsoft.reactnative\microsoft.reactnative.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.machinelearningcontract\3.0.0.0\windows.ai.machinelearning.machinelearningcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract\2.0.0.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.background.callsbackgroundcontract\2.0.0.0\windows.applicationmodel.calls.background.callsbackgroundcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsphonecontract\5.0.0.0\windows.applicationmodel.calls.callsphonecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsvoipcontract\4.0.0.0\windows.applicationmodel.calls.callsvoipcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.communicationblocking.communicationblockingcontract\2.0.0.0\windows.applicationmodel.communicationblocking.communicationblockingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.socialinfo.socialinfocontract\2.0.0.0\windows.applicationmodel.socialinfo.socialinfocontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.startuptaskcontract\3.0.0.0\windows.applicationmodel.startuptaskcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.custom.customdevicecontract\1.0.0.0\windows.devices.custom.customdevicecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.deviceslowlevelcontract\3.0.0.0\windows.devices.deviceslowlevelcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.printers.printerscontract\1.0.0.0\windows.devices.printers.printerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardbackgroundtriggercontract\3.0.0.0\windows.devices.smartcards.smartcardbackgroundtriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardemulatorcontract\6.0.0.0\windows.devices.smartcards.smartcardemulatorcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.foundationcontract\4.0.0.0\windows.foundation.foundationcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.universalapicontract\10.0.0.0\windows.foundation.universalapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.gaming.xboxlive.storageapicontract\1.0.0.0\windows.gaming.xboxlive.storageapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.graphics.printing3d.printing3dcontract\4.0.0.0\windows.graphics.printing3d.printing3dcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.connectivity.wwancontract\2.0.0.0\windows.networking.connectivity.wwancontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.sockets.controlchanneltriggercontract\3.0.0.0\windows.networking.sockets.controlchanneltriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.security.isolation.isolatedwindowsenvironmentcontract\2.0.0.0\windows.security.isolation.isolatedwindowsenvironmentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.guidancecontract\3.0.0.0\windows.services.maps.guidancecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.localsearchcontract\4.0.0.0\windows.services.maps.localsearchcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.store.storecontract\4.0.0.0\windows.services.store.storecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.targetedcontent.targetedcontentcontract\1.0.0.0\windows.services.targetedcontent.targetedcontentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.storage.provider.cloudfilescontract\4.0.0.0\windows.storage.provider.cloudfilescontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilehardwaretokencontract\1.0.0.0\windows.system.profile.profilehardwaretokencontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilesharedmodecontract\2.0.0.0\windows.system.profile.profilesharedmodecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract\3.0.0.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.systemmanagementcontract\7.0.0.0\windows.system.systemmanagementcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract\1.0.0.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.xaml.core.direct.xamldirectcontract\2.0.0.0\windows.ui.xaml.core.direct.xamldirectcontract.winmd
+2>64 bit MIDLRT Processing C:\Coding\RNWTest\windows\RNWTest\MainPage.idl
+2>MainPage.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\winrtbase.idl
+2>winrtbase.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\midlbase.idl
+2>midlbase.idl
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.ui.xaml\2.8.0\lib\uap10.0\microsoft.ui.xaml.winmd
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\microsoft.web.webview2.core.winmd
+2>Processing WinMD c:\coding\rnwtest\node_modules\react-native-windows\target\x64\debug\microsoft.reactnative\microsoft.reactnative.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.machinelearningcontract\3.0.0.0\windows.ai.machinelearning.machinelearningcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract\2.0.0.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.background.callsbackgroundcontract\2.0.0.0\windows.applicationmodel.calls.background.callsbackgroundcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsphonecontract\5.0.0.0\windows.applicationmodel.calls.callsphonecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsvoipcontract\4.0.0.0\windows.applicationmodel.calls.callsvoipcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.communicationblocking.communicationblockingcontract\2.0.0.0\windows.applicationmodel.communicationblocking.communicationblockingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.socialinfo.socialinfocontract\2.0.0.0\windows.applicationmodel.socialinfo.socialinfocontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.startuptaskcontract\3.0.0.0\windows.applicationmodel.startuptaskcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.custom.customdevicecontract\1.0.0.0\windows.devices.custom.customdevicecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.deviceslowlevelcontract\3.0.0.0\windows.devices.deviceslowlevelcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.printers.printerscontract\1.0.0.0\windows.devices.printers.printerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardbackgroundtriggercontract\3.0.0.0\windows.devices.smartcards.smartcardbackgroundtriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardemulatorcontract\6.0.0.0\windows.devices.smartcards.smartcardemulatorcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.foundationcontract\4.0.0.0\windows.foundation.foundationcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.universalapicontract\10.0.0.0\windows.foundation.universalapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.gaming.xboxlive.storageapicontract\1.0.0.0\windows.gaming.xboxlive.storageapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.graphics.printing3d.printing3dcontract\4.0.0.0\windows.graphics.printing3d.printing3dcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.connectivity.wwancontract\2.0.0.0\windows.networking.connectivity.wwancontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.sockets.controlchanneltriggercontract\3.0.0.0\windows.networking.sockets.controlchanneltriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.security.isolation.isolatedwindowsenvironmentcontract\2.0.0.0\windows.security.isolation.isolatedwindowsenvironmentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.guidancecontract\3.0.0.0\windows.services.maps.guidancecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.localsearchcontract\4.0.0.0\windows.services.maps.localsearchcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.store.storecontract\4.0.0.0\windows.services.store.storecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.targetedcontent.targetedcontentcontract\1.0.0.0\windows.services.targetedcontent.targetedcontentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.storage.provider.cloudfilescontract\4.0.0.0\windows.storage.provider.cloudfilescontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilehardwaretokencontract\1.0.0.0\windows.system.profile.profilehardwaretokencontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilesharedmodecontract\2.0.0.0\windows.system.profile.profilesharedmodecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract\3.0.0.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.systemmanagementcontract\7.0.0.0\windows.system.systemmanagementcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract\1.0.0.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.xaml.core.direct.xamldirectcontract\2.0.0.0\windows.ui.xaml.core.direct.xamldirectcontract.winmd
+2>64 bit MIDLRT Processing C:\Coding\RNWTest\windows\RNWTest\Generated Files\XamlMetaDataProvider.idl
+2>XamlMetaDataProvider.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\winrtbase.idl
+2>winrtbase.idl
+2>64 bit MIDLRT Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt\midlbase.idl
+2>midlbase.idl
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.ui.xaml\2.8.0\lib\uap10.0\microsoft.ui.xaml.winmd
+2>Processing WinMD c:\users\joao_\.nuget\packages\microsoft.web.webview2\1.0.1264.42\lib\microsoft.web.webview2.core.winmd
+2>Processing WinMD c:\coding\rnwtest\node_modules\react-native-windows\target\x64\debug\microsoft.reactnative\microsoft.reactnative.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.machinelearningcontract\3.0.0.0\windows.ai.machinelearning.machinelearningcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract\2.0.0.0\windows.ai.machinelearning.preview.machinelearningpreviewcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.background.callsbackgroundcontract\2.0.0.0\windows.applicationmodel.calls.background.callsbackgroundcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsphonecontract\5.0.0.0\windows.applicationmodel.calls.callsphonecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.calls.callsvoipcontract\4.0.0.0\windows.applicationmodel.calls.callsvoipcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.communicationblocking.communicationblockingcontract\2.0.0.0\windows.applicationmodel.communicationblocking.communicationblockingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.socialinfo.socialinfocontract\2.0.0.0\windows.applicationmodel.socialinfo.socialinfocontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.applicationmodel.startuptaskcontract\3.0.0.0\windows.applicationmodel.startuptaskcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.custom.customdevicecontract\1.0.0.0\windows.devices.custom.customdevicecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.deviceslowlevelcontract\3.0.0.0\windows.devices.deviceslowlevelcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.printers.printerscontract\1.0.0.0\windows.devices.printers.printerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardbackgroundtriggercontract\3.0.0.0\windows.devices.smartcards.smartcardbackgroundtriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.devices.smartcards.smartcardemulatorcontract\6.0.0.0\windows.devices.smartcards.smartcardemulatorcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.foundationcontract\4.0.0.0\windows.foundation.foundationcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.foundation.universalapicontract\10.0.0.0\windows.foundation.universalapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.gaming.xboxlive.storageapicontract\1.0.0.0\windows.gaming.xboxlive.storageapicontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.graphics.printing3d.printing3dcontract\4.0.0.0\windows.graphics.printing3d.printing3dcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.connectivity.wwancontract\2.0.0.0\windows.networking.connectivity.wwancontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.networking.sockets.controlchanneltriggercontract\3.0.0.0\windows.networking.sockets.controlchanneltriggercontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.security.isolation.isolatedwindowsenvironmentcontract\2.0.0.0\windows.security.isolation.isolatedwindowsenvironmentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.guidancecontract\3.0.0.0\windows.services.maps.guidancecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.maps.localsearchcontract\4.0.0.0\windows.services.maps.localsearchcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.store.storecontract\4.0.0.0\windows.services.store.storecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.services.targetedcontent.targetedcontentcontract\1.0.0.0\windows.services.targetedcontent.targetedcontentcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.storage.provider.cloudfilescontract\4.0.0.0\windows.storage.provider.cloudfilescontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilehardwaretokencontract\1.0.0.0\windows.system.profile.profilehardwaretokencontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.profilesharedmodecontract\2.0.0.0\windows.system.profile.profilesharedmodecontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract\3.0.0.0\windows.system.profile.systemmanufacturers.systemmanufacturerscontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.system.systemmanagementcontract\7.0.0.0\windows.system.systemmanagementcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract\1.0.0.0\windows.ui.viewmanagement.viewmanagementviewscalingcontract.winmd
+2>Processing WinMD c:\program files (x86)\windows kits\10\references\10.0.19041.0\windows.ui.xaml.core.direct.xamldirectcontract\2.0.0.0\windows.ui.xaml.core.direct.xamldirectcontract.winmd
+2>Microsoft(R) Metadata Merge Utility Version 10.0.49.
+2>
+2>
+2>Processing input metadata file x64\Debug\Unmerged\App.winmd.
+2>Processing input metadata file x64\Debug\Unmerged\MainPage.winmd.
+2>Processing input metadata file x64\Debug\Unmerged\XamlMetaDataProvider.winmd.
+2>Saved output metadata file RNWTest.winmd.
+2>Validating metadata file x64\Debug\Merged\RNWTest.winmd.
+2>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1424,5): error MSB6006: "link.exe" foi encerrado com o código 1104.
+2>LINK : fatal error LNK1104: não é possível abrir o arquivo 'msvcprtd.lib'
+2>C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(486,5): error MSB4181: A tarefa "CompileXaml" retornou false, mas não registrou um erro.
+2>Projeto de compilação pronto "RNWTest.vcxproj" -- FALHA.
+========== Compilação: 0 bem-sucedida, 2 com falha, 4 atualizada, 0 ignorada ==========
+========== Compilação começou em 09:27 e levou 26,598 segundos ==========
+========== Implantação: 0 bem sucedida, 0 com falha, 0 ignorada ==========
+========== Implantar começou em 09:27 e levou 26,598 segundos ==========
